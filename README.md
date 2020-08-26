@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img style="background-color: #312e38; border-radius: 10px;" alt="starwars-logo" src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fpt.wikipedia.org%2Fwiki%2FStar_Wars&psig=AOvVaw3QK9RX6EImtUMeDcO7FrP2&ust=1598566035622000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCLDTg9jwuesCFQAAAAAdAAAAABAD" />
+  <img style="background-color: #312e38; border-radius: 10px;" alt="starwars-logo" src="https://pyxis.nymag.com/v1/imgs/314/20c/5e25fc541fc4e0b84bc393e1e316f07b40-18-Star-Wars-Logo.2x.h473.w710.jpg" />
 </h1>
 
 ## 🔖 Sobre o projeto
@@ -39,9 +39,9 @@ O projeto **Starwars**. Tendo como objetivo, uma API para CRUD de planetas.
 /* Requisição de criação de um planeta */
 🟢 POST - /planets
 params: {
- "name": "Naboo",
-"weather": "hot",
-"ground": "terrible"
+  "name": "Naboo",
+  "weather": "hot",
+  "ground": "terrible"
 }
 
 /* Requisições para buscar um planeta a partir do id */
@@ -57,7 +57,7 @@ params: {
 /* Requisição atualização de parâmetros de um planeta*/
 🟠 PUT - /planets/{id}
 params: {
- "name": "Naboo",
+  "name": "Naboo",
   "weather": "hot",
   "ground": "terrible"
 }
