@@ -1,0 +1,7 @@
+package: .
+import:
+- package: github.com/gorilla/mux
+  version: ^1.7.4
+- package: gopkg.in/mgo.v2
+- package: github.com/BurntSushi/toml
+  version: ^0.3.1
